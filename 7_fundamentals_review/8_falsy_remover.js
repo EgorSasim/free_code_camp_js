@@ -1,0 +1,2 @@
+const bouncer = arr => arr.filter(Boolean);
+
