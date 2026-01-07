@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    display: none;
+    background-color: lightgray;
+    width: 50%;
+    padding: 10px;
+}
+
+.menu.show {
+    display: block;
+}
+
+#cat-img {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+#div-to-animate {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#div-to-animate2 {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+}
