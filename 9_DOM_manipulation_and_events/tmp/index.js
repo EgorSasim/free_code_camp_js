@@ -183,3 +183,17 @@ const closeDialogBtn = document.getElementById('modal-dialog-close');
 
 openDialogBtn.addEventListener('click', () => dialog.showModal());
 closeDialogBtn.addEventListener('click', () => dialog.close());
+
+
+//// CHANGE EVENT /////
+const selectMenu = document.querySelector('#select-menu');
+selectMenu.addEventListener("change", event => console.log(event.target.value));
+
+//// EVENT DELEGATION
+const delegatingDiv = document.querySelector(".delegating-div");
+delegatingDiv.addEventListener("click", e => {
+    console.log('handle "p" event');
+    e.target.style.color = 'cyan';
+    e.stopPropagation();
+});
+

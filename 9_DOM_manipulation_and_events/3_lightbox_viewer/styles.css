@@ -1,0 +1,62 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.title {
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(211, 221, 224);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.2);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+}

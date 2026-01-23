@@ -1,0 +1,23 @@
+.item-list {
+    list-style-type: none;
+}
+
+.item-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+}
+
+.favorite-icon {
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.filled {
+    color: #d22d2b
+}

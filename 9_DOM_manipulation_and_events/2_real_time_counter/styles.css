@@ -1,0 +1,37 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0c1ec;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    background-color: #f2f48b;
+    padding-block: 10px;
+}
+
+#text-input {
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid slategray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#char-count {
+    margin-top: 10px;
+    font-size: 18px;
+    color: darkslategray;
+    font-weight: bold;
+}
